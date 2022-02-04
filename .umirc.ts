@@ -12,6 +12,15 @@ export default {
   history: {
     type: 'browser',
   },
+  themeConfig: {
+    carrier: 'dumi', // 设备状态栏左侧的文本内容
+    hd: {
+      rules: [
+        { maxWidth: 375, mode: 'vw', options: [100, 750] },
+        { minWidth: 376, maxWidth: 750, mode: 'vw', options: [100, 1500] },
+      ],
+    },
+  },
   sass: {
     // 默认值 Dart Sass，如果要改用 Node Sass，可安装 node-sass 依赖，然后使用该配置项
     // implementation: require('node-sass'),

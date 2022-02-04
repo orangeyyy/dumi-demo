@@ -1,6 +1,6 @@
 ---
+mobile: false
 nav:
-  title: Components
   path: /comp
 ---
 
